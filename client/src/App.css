@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(2, 24, 47);
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alert{
+  /* display: none; */
+  position: absolute;
+  top: -100px;
+  background-color: rgba(253, 86, 86, 0.534);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 1s ease-in-out;
+}
+.box{
+  width: 33%;
+  border-top-left-radius: 1.6rem;
+  border-bottom-right-radius: 1.6rem;
+  background-color: rgba(2, 38, 77, 0.878);
+  border: 1px solid rgb(68, 67, 67);
+}
+
+h1{
+  text-align: center;
+  background-color: rgba(1, 19, 39, 0.878);
+  color: white;
+  font-weight: bold;
+  padding: 1rem 0;
+  border-top-left-radius: 1.6rem;
+}
+form.join-room{
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin: 1.5rem 0;
+}
+.mb-3{
+  margin-bottom: 0.8rem;
+  width: 100%;
+}
+
+.label{
+  padding-left: 0.5rem;
+}
+
+#username, #room{
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  margin: 0.2rem 0;
+  border-radius: 0.7rem;
+  background: transparent;
+  border: 1px solid grey;
+  color: white;
+}
+
+.btn{
+  width: 60%;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: rgba(1, 19, 39, 0.878);
+  color: white;
+  margin-top: 1.1rem;
+
+  border-radius: 1.1rem;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in;
+}
+.btn:hover{
+  cursor: pointer;
+  border-color: whitesmoke;
+  background-color: transparent;
+  box-shadow: 1px 1px 1px 1px rgb(142, 140, 140);
+}
+
+/* ************* Media query************************ */
+
+/* ************************************* medium devices************************ */
+
+@media screen and (max-width: 1024px) {
+  .box{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .box{
+    width: 44%;
+  }
+}
+
+/* ************************************* small devices************************ */
+
+@media screen and (max-width: 600px) {
+  .box{
+    width: 55%;
+  }
+}
+@media screen and (max-width:450px) {
+  .box{
+    width: 80%;
+  }
+}
+
+
