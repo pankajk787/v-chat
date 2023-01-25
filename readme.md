@@ -2,8 +2,8 @@
 This is a chat application where users can join into a room and chat together by sending text messages.
 
 ### Stack used:
-Frontend: ReactJs, SocketIo-client, CSS
-Backend: NodeJS, Express, SocketIO
+##### Frontend: ReactJs, SocketIo-client, CSS
+##### Backend: NodeJS, Express, SocketIO
 
 Screenshots:
 
