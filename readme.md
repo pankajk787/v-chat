@@ -1,4 +1,4 @@
-# Chat App using React and socket.io
+# V-Chat - Chat App using React and socket.io
 This is a chat application where users can join into a room and chat together by sending text messages.
 
 ### Stack used:
